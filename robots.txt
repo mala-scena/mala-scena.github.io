@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: /msuo-showcase/sitemap.xml
+Sitemap: /msuo/sitemap.xml
 
