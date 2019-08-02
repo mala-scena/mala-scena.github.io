@@ -46,8 +46,12 @@
 
 
 <body id="page-top">
+<div id="page-container">
 
 <!-- Navigation -->
+<div class="search-dialog-container">
+  <search-dialog :show="false"></search-dialog>
+</div>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="/">MSUO</a>
@@ -55,6 +59,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <form id="gsearch" class="form-inline">
+              <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
+              <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+            </form>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="/program#content">
@@ -104,20 +112,6 @@
   <next-event></next-event>
 
 
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="container search-container text-left">
-        <div class="row">
-          <div class="col-12">
-
-            <div id="gsearch">
-              <g-search></g-search>
-            </div>
-
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -291,6 +285,8 @@ PODLE T. BURTONA - H. PETRŽÍLKOVÁ, E. MINÁŘOVÁ.</p>
 </footer>
 
 
+</div>
+
 <!-- Bootstrap core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--twice-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
@@ -308,7 +304,7 @@ PODLE T. BURTONA - H. PETRŽÍLKOVÁ, E. MINÁŘOVÁ.</p>
 <!-- Custom scripts for this template -->
 <!--<script src="/js/creative.js"></script>-->
 
-<script type="text/javascript" src="/dist/vendor.1c6498d5ea49f7dc4387.js"></script><script type="text/javascript" src="/dist/app.a847a098985cc3a45791.js"></script><script type="text/javascript" src="/dist/custom.81502517e982a8808273.js"></script><script type="text/javascript" src="/dist/polyfill.d612e532bad47c4479a2.js"></script>
+<script type="text/javascript" src="/dist/vendor.cf92f8bec31a4f9b2053.js"></script><script type="text/javascript" src="/dist/app.e0f68f2e084b5ed0735e.js"></script><script type="text/javascript" src="/dist/custom.b8ff2beb7b68dee6efba.js"></script><script type="text/javascript" src="/dist/polyfill.cc8c7b2f6280bc6dcddb.js"></script>
 
 
 </body>

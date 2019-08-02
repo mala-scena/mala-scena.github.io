@@ -306,40 +306,6 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
-.gsc-input {
-  height: 2rem;
-}
-
-.gsc-search-button {
-  height: 2rem;
-}
-
-.gsc-search-opener {
-  height: 2rem;
-  line-height: 2rem;
-  margin: 1px;
-}
-.gsc-search-opener .btn {
-  font-size: 1rem;
-}
-
-.search-container {
-  min-height: 4rem;
-}
-.search-container .gsc-control-cse {
-  border-radius: 10px 10px 0 0;
-  border-color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(255, 255, 255, 0.9);
-}
-.search-container .gsc-input-box {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-.search-container .gsc-search-opener button {
-  padding: 6px 27px;
-  height: 32px;
-  line-height: 19px;
-}
-
 body,
 html {
   width: 100%;
