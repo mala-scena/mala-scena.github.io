@@ -699,11 +699,8 @@ p {
 
 #bottom-logo {
   position: relative;
-  bottom: 0;
   height: 220px;
-  margin-bottom: -24px;
-  margin-left: 30px;
-  margin-top: -85px;
+  margin-top: -220px;
 }
 
 .top-menu .nav-link:hover {
@@ -714,6 +711,9 @@ p {
   min-height: 272px;
 }
 
+#top-n {
+  padding-bottom: 9rem !important;
+}
 #top-n .event-title {
   color: #f8f9fa !important;
 }
