@@ -737,3 +737,11 @@ footer {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background-color: #C04F30;
 }
+
+a.badge-primary {
+  color: #fff;
+  background-color: #C04F30;
+}
+a.badge-primary:hover {
+  background-color: #c62d2b;
+}
