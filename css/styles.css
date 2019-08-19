@@ -626,7 +626,7 @@ img:not([src]) {
 }
 
 body {
-  min-width: 360px;
+  min-width: 440px;
 }
 
 p {
