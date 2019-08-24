@@ -755,3 +755,8 @@ a.badge-primary {
 a.badge-primary:hover {
   background-color: #c62d2b;
 }
+
+.mark, mark {
+  padding: .1em;
+  background-color: rgba(0, 255, 0, 0.2);
+}
