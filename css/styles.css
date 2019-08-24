@@ -760,3 +760,7 @@ a.badge-primary:hover {
   padding: .1em;
   background-color: rgba(0, 255, 0, 0.2);
 }
+
+footer .cafe img {
+  height: 128px;
+}
