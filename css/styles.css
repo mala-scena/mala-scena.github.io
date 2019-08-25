@@ -704,13 +704,13 @@ p {
   position: absolute;
   right: 0;
   margin-right: 30px;
-  height: 220px;
+  height: 180px;
 }
 
 #bottom-logo {
   position: relative;
-  height: 220px;
-  margin-top: -220px;
+  height: 180px;
+  margin-top: -180px;
 }
 
 .top-menu .nav-link:hover {
