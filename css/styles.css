@@ -765,3 +765,12 @@ a.badge-primary:hover {
 footer .cafe img {
   height: 128px;
 }
+
+.alert-popup-wrapper {
+  position: fixed;
+  top: 64px;
+  left: 25%;
+  width: 50%;
+  margin: 0 auto;
+  z-index: 100000;
+}
