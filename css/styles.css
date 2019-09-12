@@ -164,7 +164,7 @@ header.masthead {
   padding-top: 3rem;
   background-image: url("../assets/img/header2.jpg");
   background-position: top center;
-  overflow: hidden;
+  overflow: visible;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -475,7 +475,7 @@ header.masthead {
   padding-top: 3rem;
   background-image: url("../assets/img/header2.jpg");
   background-position: top center;
-  overflow: hidden;
+  overflow: visible;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
