@@ -774,3 +774,8 @@ footer .cafe img {
   margin: 0 auto;
   z-index: 100000;
 }
+
+.list-group-horizontal {
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
