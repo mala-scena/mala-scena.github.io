@@ -648,13 +648,6 @@ p {
 .bg-primary .text-content {
   color: #f8f9fa;
 }
-.bg-primary a {
-  color: #f8f9fa;
-  text-decoration: underline;
-}
-.bg-primary a:hover {
-  color: #b7b9ba;
-}
 .bg-primary .btn {
   color: #212529;
   background-color: #f8f9fa;
@@ -664,6 +657,13 @@ p {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
+}
+.bg-primary .timeline a {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+.bg-primary .timeline a:hover {
+  color: #b7b9ba;
 }
 
 .bg-white .text-content {
