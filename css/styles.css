@@ -648,6 +648,13 @@ p {
 .bg-primary .text-content {
   color: #f8f9fa;
 }
+.bg-primary a {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+.bg-primary a:hover {
+  color: #b7b9ba;
+}
 .bg-primary .btn {
   color: #212529;
   background-color: #f8f9fa;
